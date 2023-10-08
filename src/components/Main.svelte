@@ -65,7 +65,7 @@
     </a>
     <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
       {#each steps as step, index}
-        <Step step={step} key={index} >
+        <Step step={step} >
           <p>{step.description}</p>
         </Step>
       {/each}
