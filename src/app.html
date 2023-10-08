@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -30,24 +30,16 @@
     data-sveltekit-preload-data="hover"
     class="bg-slate-950 text-white relative"
   >
-    <div style="display: contents" class="relative z-[1]">
-      %sveltekit.body%
-    </div>
+    <div style="display: contents" class="relative z-[1]">%sveltekit.body%</div>
 
-    <div
-      class="absolute min-h-screen top-0 left-0 w-full z-[-1] opacity-70"
-    >
+    <div class="absolute min-h-screen top-0 left-0 w-full z-[-1] opacity-70">
       <div id="particles-js" class="absolute inset-0"></div>
     </div>
 
     <script>
-      particlesJS.load(
-        'particles-js',
-        'assets/particles.json',
-        function () {
-          console.log('callback - particles.js config loaded');
-        }
-      );
+      particlesJS.load("particles-js", "assets/particles.json", function () {
+        console.log("callback - particles.js config loaded");
+      });
     </script>
   </body>
 </html>

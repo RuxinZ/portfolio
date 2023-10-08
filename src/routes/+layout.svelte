@@ -2,7 +2,7 @@
   import "../app.css";
   import Header from "../components/Header.svelte";
   import Footer from "../components/Footer.svelte";
-  let y;
+  let y: number;
     let innerWidth = 0;
     let innerHeight = 0;
 
@@ -27,8 +27,9 @@
   </div>
   <Header y={y}/>
   <slot />
-  <Footer />
+
 
 </div>
+<Footer />
 
 <svelte:window bind:scrollY={y} bind:innerHeight bind:innerWidth />
