@@ -2,9 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+.poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* #introPage {
   background-image: url('/images/background-arora.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-}
+} */
