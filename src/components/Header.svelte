@@ -1,7 +1,7 @@
 <script lang="ts">
   export let y: number;
   let tabs = [
-    {name: "Projects", link: "#project"},
+    {name: "Projects", link: "#projects"},
     {name: "About Me", link: "#aboutme"},
     {name: "Resume", link: "#resume"},
 ]
