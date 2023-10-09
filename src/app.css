@@ -26,6 +26,36 @@ h3,
   object-fit: cover;
 }
 
+.scroll-container {
+  transform: rotate(-3deg);
+}
+.scroll-text span {
+  margin-inline: 1em;
+}
+.scroll-text {
+  animation: animate_text_left 25s linear infinite;
+}
+@keyframes animate_text_left {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+.scroll-right {
+  animation: animate_text_right 25s linear infinite;
+}
+@keyframes animate_text_right {
+  from {
+    transform: translate3d(-100%, 0, 0);
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
 /* #introPage {
   background-image: url('/images/background-arora.jpg');
   background-size: cover;
