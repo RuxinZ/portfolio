@@ -2,8 +2,8 @@
 
   import IntroSection from "./IntroSection.svelte";
   import ProjectsSection from "./ProjectsSection.svelte";
- 
   import AboutSection from "./AboutSection.svelte";
+  import EducationSection from "./EducationSection.svelte";
   
 </script>
 
@@ -11,6 +11,7 @@
   <IntroSection/>
   <ProjectsSection/>
   <AboutSection/>
+  <EducationSection />
 
 
 

@@ -8,9 +8,9 @@ class='grid grid-cols-1 lg:grid-cols-2 gap-10 py-8 sm:py-14'
 >
   <h2 class="font-semibold text-4xl sm:text-5xl md:text-6xl">
     Hi! I'm <span class="poppins text-violet-400">Carolyn</span> Zheng
-    <br />Full Stack
-    <span class="poppins text-violet-400">Developer</span>
-  </h2>
+    <br />Full Stack <span class="poppins text-violet-400">Developer</span></h2> 
+   
+  
   <p class="text-base sm:text-lg md:text-xl">
     My <span class="text-violet-400"> favorite tech</span> includes JavaScript, TypeScript, React, Svelte, Node.js + Express & PostgreSQL
     or MongoDB!
