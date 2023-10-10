@@ -10,6 +10,10 @@ html {
   font-family: "Roboto", sans-serif;
 }
 
+.display-none {
+  @apply hidden;
+}
+
 h1,
 h2,
 h3,
@@ -56,6 +60,17 @@ h3,
   }
 }
 
+.visually-hidden {
+  display: inline-block;
+  position: absolute;
+  overflow: "hidden";
+  clip: rect(0 0 0 0);
+  height: 1;
+  width: 1;
+  margin: -1;
+  padding: 0;
+  border: 0;
+}
 /* #introPage {
   background-image: url('/images/background-arora.jpg');
   background-size: cover;

@@ -2,20 +2,19 @@
    import ScrollingText from "./ScrollingText.svelte";
   const benefits = [
         {
-            metric: "10x",
             name: "a self taught developer",
             description:
-                "I taught myself to code using free online resources and absolutely fell in love with the creativity and problem solving that is involved in developing and engineering innovative new online experiences. Starting of with JavaScript, HTML & CSS and evolving my knowledge base to include JavaScript frameworks, backend programming, design, cloud services and much much more.",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Adipiscing elit pellentesque habitant morbi tristique senectus et netus et. Vulputate eu scelerisque felis imperdiet proin fermentum leo vel. Neque vitae tempus quam pellentesque nec nam aliquam sem et. Varius duis at consectetur lorem donec.",
         },
         {
-            name: "a product design & UX finatic",
+            name: "a life-long learner",
             description:
-                "Carefully crafting and designing amazing user experiences allows me to express and experiment with every morsel of creativity I have. I love the challenge of learning new design concepts and enabling users with amazing online experiences.",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed risus ultricies tristique nulla aliquet enim. Egestas tellus rutrum tellus pellentesque eu tincidunt tortor aliquam nulla.",
         },
         {
             name: "an excellent communicator",
             description:
-                "Communication is key and it's a paramount value of mine. I believe in transparency and constructive communication above all else. This helps me develop deep relationships and ensures my effectiveness and productivity in any work space with any team.",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Gravida quis blandit turpis cursus in hac habitasse platea. Fermentum dui faucibus in ornare. Tellus in metus vulputate eu scelerisque felis imperdiet proin fermentum.",
         },
     ];
 
